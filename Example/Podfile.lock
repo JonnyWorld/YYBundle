@@ -1,0 +1,16 @@
+PODS:
+  - YYBundle (0.1.0)
+
+DEPENDENCIES:
+  - YYBundle (from `../`)
+
+EXTERNAL SOURCES:
+  YYBundle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYBundle: 2d4024683f33be5bce0c615e60388ced5dd80c6f
+
+PODFILE CHECKSUM: 1ebe0dccb83567481c11afe40c3f2d0025191b53
+
+COCOAPODS: 1.8.0

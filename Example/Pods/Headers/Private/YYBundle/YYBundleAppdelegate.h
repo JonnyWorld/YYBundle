@@ -1,0 +1,1 @@
+../../../../../YYBundle/Classes/BundleInterface/YYBundleAppdelegate.h

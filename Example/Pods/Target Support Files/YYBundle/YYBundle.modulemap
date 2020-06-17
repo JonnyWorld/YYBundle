@@ -1,0 +1,6 @@
+framework module YYBundle {
+  umbrella header "YYBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}
