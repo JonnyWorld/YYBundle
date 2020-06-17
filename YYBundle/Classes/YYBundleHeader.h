@@ -13,9 +13,15 @@
 #import "YYBundleAppdelegate.h"
 #import "YYBundleAppOpenURL.h"
 #import "YYBundleAppNotification.h"
+
 #import "YYBundleManager.h"
 #import "YYBundleManager+AppDelegate.h"
 #import "YYBundleManager+AppOpenURL.h"
 #import "YYBundleManager+AppNotification.h"
+
+#import "YYBundleConfig.h"
+#import "YYBundleProxy.h"
+#import "YYMainBundle.h"
+
 
 #endif /* YYBundleHeader_h */

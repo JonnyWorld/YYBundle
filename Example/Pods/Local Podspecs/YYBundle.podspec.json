@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of YYBundle.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/baozhou/YYBundle",
+  "homepage": "https://github.com/baozhoua/YYBundle",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "baozhou": "baozhoua@163.com"
   },
   "source": {
-    "git": "https://github.com/baozhou/YYBundle.git",
+    "git": "https://github.com/baozhoua/YYBundle.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YYBundle/Classes/**/*"
+  "source_files": "YYBundle/Classes/**/*",
+  "public_header_files": "YYBundle/YYBundleHeader.h",
+  "subspecs": [
+    {
+      "name": "BundleInterface",
+      "source_files": "YYBundle/Classes/BundleInterface/*.{h,m}"
+    },
+    {
+      "name": "BundleManager",
+      "source_files": "YYBundle/Classes/BundleManager/*.{h,m}"
+    }
+  ]
 }

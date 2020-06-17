@@ -6,6 +6,7 @@
 //  Copyright © 2020 baozhou. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "YYBundleManager.h"
 #import "YYBundleAppNotification.h"
 

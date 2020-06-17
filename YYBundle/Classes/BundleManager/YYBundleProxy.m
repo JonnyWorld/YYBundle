@@ -6,7 +6,9 @@
 //
 
 #import "YYBundleProxy.h"
+#import "YYBundleConfig.h"
 #import "YYBundle.h"
+
 
 @interface YYBundleProxy ()
 
@@ -31,6 +33,7 @@
     config.host_v = hostVersion;
     proxy.bundleConfig = config;
     return proxy;
+
 }
 
 //bundle代理信息简介

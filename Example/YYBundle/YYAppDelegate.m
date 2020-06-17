@@ -7,7 +7,7 @@
 //
 
 #import "YYAppDelegate.h"
-#import <YYBundle/YYBundleHeader.h>
+//#import <YYBundle/YYBundleHeader.h>
 
 @implementation YYAppDelegate
 
@@ -15,13 +15,13 @@
 {
     // Override point for customization after application launch.
 //    NSLog(@"enter app");
-    [[YYBundleManager sharedInstance] start];
-    [[YYBundleManager sharedInstance] registerModulesWhenLaunch];
-    [[YYBundleManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+//    [[YYBundleManager sharedInstance] start];
+//    [[YYBundleManager sharedInstance] registerModulesWhenLaunch];
+//    [[YYBundleManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 //
     return YES;
 }
-
+/*
 - (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options  {
     return [[YYBundleManager sharedInstance] application:application openURL:url options:options];
 }
@@ -69,5 +69,5 @@ sourceApplication:(NSString *)sourceApplication
     [[YYBundleManager sharedInstance] applicationWillTerminate:application];
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+*/
 @end

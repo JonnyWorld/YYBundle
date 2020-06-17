@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-#import <YYBundle/YYBundleHeader.h>
+//#import <YYBundle/YYBundleHeader.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-YYDATAMod(BLBaseModules)
-@interface BLBaseModules : NSObject <YYBundle,YYBundleAppdelegate,YYBundleAppNotification>
+//YYDATAMod(BLBaseModules)
+@interface BLBaseModules : NSObject
+//<YYBundle,YYBundleAppdelegate,YYBundleAppNotification>
 
 @end
 

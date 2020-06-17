@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import "YYBundleConfig.h"
 
-
 @interface YYBundleProxy : NSObject
 
 @property (nonatomic, strong, readonly) YYBundleConfig *bundleConfig;
