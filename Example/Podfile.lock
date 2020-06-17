@@ -1,9 +1,10 @@
 PODS:
-  - YYBundle (0.1.0):
-    - YYBundle/BundleInterface (= 0.1.0)
-    - YYBundle/BundleManager (= 0.1.0)
-  - YYBundle/BundleInterface (0.1.0)
-  - YYBundle/BundleManager (0.1.0)
+  - YYBundle (1.0.0):
+    - YYBundle/BundleInterface (= 1.0.0)
+    - YYBundle/BundleManager (= 1.0.0)
+  - YYBundle/BundleInterface (1.0.0)
+  - YYBundle/BundleManager (1.0.0):
+    - YYBundle/BundleInterface
 
 DEPENDENCIES:
   - YYBundle (from `../`)
@@ -13,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YYBundle: 213d19cef6aa436ab37320aee5746c332b6c0b6a
+  YYBundle: bedc304e066608e791e42b95bceca87ab83ecc06
 
 PODFILE CHECKSUM: bc1c64c440b58c9a804dea2fad19e1351ad83f4c
 

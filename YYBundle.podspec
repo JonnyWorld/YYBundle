@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YYBundle/Classes/**/*'
+  s.source_files = 'YYBundle/Classes/YYBundleHeader.h'
   
   # s.resource_bundles = {
   #   'YYBundle' => ['YYBundle/Assets/*.png']

@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		066AD487EFBACE5512BCAEA71A25A8E3 /* YYBundleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D149091159E1E99ECCFCBE3B46FFD75D /* YYBundleConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0B255B43D759303028A19720A37B3651 /* YYBundleAppdelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B965CF56352CB1B8F5C372866ED35F5 /* YYBundleAppdelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B9BBDD22CD43B4506B0883082406197 /* YYBundleManager+AppOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A597E50C59AA26B0AF3CDD853FBBF1A /* YYBundleManager+AppOpenURL.m */; };
 		1AFD333466180D579390D0C61005CD0D /* Pods-YYBundle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF810EDF4DEBDBDC28A54690EB87707F /* Pods-YYBundle_Example-dummy.m */; };
-		2C424C52DA4E9A0B7A87C859B2C7E0A6 /* YYBundleAppNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8C34E4B411A0819C5252A68912BF4B /* YYBundleAppNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D05C732A0CE3F494F8B207C6DB264F5 /* YYBundleHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6427E15F63B276C9891AA5D48B9616 /* YYBundleHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D869BE0CAD46589ADDDBA5EF4FCA71A /* YYBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A0DB7788340347642C8CC74870ECCF /* YYBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		64FA439BE05888B228A72C15446ACE56 /* YYBundleAppOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 581B1A7871CFEF2FC0AF88A7368DE9A6 /* YYBundleAppOpenURL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EAB266750326432E582201E4D702A91 /* YYBundleManager+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4630D78041B68FF2B5D8F6FED6BFE /* YYBundleManager+AppDelegate.m */; };
+		3213C857F2AEC08379FE6CBDEFEFEE7C /* YYBundleProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB14C73D5F92050FE00FFED627DA932 /* YYBundleProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C610893F4E9CBAB9899029F03030B71 /* YYMainBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE53289827F09F0A5F7FBAF8A5713F4 /* YYMainBundle.m */; };
+		478B66B37C64205192FB002DCAC5A436 /* YYBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2279A0DDE1A5663141B8CDE66A6AECC /* YYBundleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		493DF2FD3A3EE50E22949557D689B1D3 /* YYBundleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 883A8E973DA0ED9ED65CCE6356C79564 /* YYBundleConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49F3578C230B8FA9ED35A182CD105C4B /* YYBundleManager+AppNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDAB3D1E51576A9B2B5907407732D2 /* YYBundleManager+AppNotification.m */; };
+		4A112DE2AED1E159BA9BE5945B71182B /* YYBundleManager+AppNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DD5F0B375AAE043C5AFA1D1898E4A5 /* YYBundleManager+AppNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C0D69B716CDA987E1F226057F8C0D52 /* YYMainBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 204579E0790FEBAC92842437AD8E411D /* YYMainBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F30FDFEB5BD944B8CA521F95F4AD209 /* YYBundleAppdelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E934FEDA0669F32A8A05BE3C53095A25 /* YYBundleAppdelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		67B2B2F3BF3A4EE9DF0ECD1DA646FD0B /* Pods-YYBundle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E745AC6C94828FC7ADAD1DB9A3724 /* Pods-YYBundle_Tests-dummy.m */; };
-		705047A7DB8D76E69B913949316E1C53 /* YYMainBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = AA51B4BD17E7B9EF5EFD302891681D5B /* YYMainBundle.m */; };
-		ADEAB032B35DCBB9BF5C98F75C4C2D98 /* YYBundleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE69019F52DDABDE50920EC2EC951F6 /* YYBundleConfig.m */; };
-		B82718E82F307DE896DDFB3429AE4FA7 /* YYMainBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E175F4A0B98216E5A709BF2A8AE406C /* YYMainBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3BB55F7785C4FD29588B6B43EF05928 /* YYBundle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81C6D1803B5B2C81E37DFFC94E46EE8 /* YYBundle-dummy.m */; };
-		DFB346D656E6D65F1FEF3178CB9A7B41 /* YYBundleProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 095D75292D274157A4BF1AFBE1E2CE12 /* YYBundleProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7EC82A72B53E19F403AC4D436E42318 /* YYBundleProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9E7702FE4855A6F36F679E385117E /* YYBundleProxy.m */; };
-		FBAB37272499DD5700B3C0D6 /* YYBundleManager+AppOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAB371F2499DD5600B3C0D6 /* YYBundleManager+AppOpenURL.m */; };
-		FBAB37282499DD5700B3C0D6 /* YYBundleManager+AppNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAB37202499DD5600B3C0D6 /* YYBundleManager+AppNotification.h */; };
-		FBAB37292499DD5700B3C0D6 /* YYBundleManager+AppNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAB37212499DD5600B3C0D6 /* YYBundleManager+AppNotification.m */; };
-		FBAB372A2499DD5700B3C0D6 /* YYBundleManager+AppOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAB37222499DD5600B3C0D6 /* YYBundleManager+AppOpenURL.h */; };
-		FBAB372B2499DD5700B3C0D6 /* YYBundleManager+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAB37232499DD5600B3C0D6 /* YYBundleManager+AppDelegate.m */; };
-		FBAB372C2499DD5700B3C0D6 /* YYBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAB37242499DD5600B3C0D6 /* YYBundleManager.h */; };
-		FBAB372D2499DD5700B3C0D6 /* YYBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAB37252499DD5600B3C0D6 /* YYBundleManager.m */; };
-		FBAB372E2499DD5700B3C0D6 /* YYBundleManager+AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAB37262499DD5700B3C0D6 /* YYBundleManager+AppDelegate.h */; };
+		6A76D969DEEB8821E3906364FB817CD0 /* YYBundleProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ADCFA367910A5EB955083A9E8610A3 /* YYBundleProxy.m */; };
+		7101CD12C3ECB11EA5503FE829623B73 /* YYBundleManager+AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 905913E19FF0397E771CC26BB1138CF5 /* YYBundleManager+AppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A3888BC694073AFE8DB4BE272213FE2 /* YYBundleHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFF91A00F0CE003269EE02248338AEF /* YYBundleHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		97DCA31D20D5174FF61FABC802F581A1 /* YYBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9961751ED2B33EDF51687F7E09D90A87 /* YYBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CF227AABB33133BDA3EDC4980AB6BD8 /* YYBundleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B381F2BFB6C911902D0507EAC7E1BD /* YYBundleConfig.m */; };
+		9EC927CCE42C54858D4109D06A284204 /* YYBundleAppOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C56CC56B7737729B79081B6E60A6C9A /* YYBundleAppOpenURL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA2DCAC1BE4CEDEACEF79688B6F0950B /* YYBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF338E6131770F97F6519252A3371D /* YYBundleManager.m */; };
+		BBB3C55F2CAA26E057D6CA02C1FC57E5 /* YYBundle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CB7EAF1D0AEFE05AD1D413196F4358 /* YYBundle-dummy.m */; };
+		F3526B6C828BFA7D863EE220213F8BDA /* YYBundleAppNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 060FA31982C1BA306B74AAF6544750DC /* YYBundleAppNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4662289DCD36534AEC8580A6C3AC285 /* YYBundleManager+AppOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = E6373A57C8A91EE0A34341236FF528EB /* YYBundleManager+AppOpenURL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,54 +50,47 @@
 
 /* Begin PBXFileReference section */
 		000E745AC6C94828FC7ADAD1DB9A3724 /* Pods-YYBundle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYBundle_Tests-dummy.m"; sourceTree = "<group>"; };
-		00A0DB7788340347642C8CC74870ECCF /* YYBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYBundle.h; sourceTree = "<group>"; };
-		017F51B4FEEB6669541D3BE8D191E3C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		02496D2B92787A2C77F5E551F985C4E4 /* Pods-YYBundle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYBundle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0743A544251EC23E34D1932CE21CDFAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		095D75292D274157A4BF1AFBE1E2CE12 /* YYBundleProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYBundleProxy.h; sourceTree = "<group>"; };
-		1487E7A9118832E6F0C18182C1E4E57F /* YYBundle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YYBundle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1A0CB4B64511D884D7EAB1E3391F628D /* YYBundle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYBundle-prefix.pch"; sourceTree = "<group>"; };
-		1E5224291DCCA28D6A8DB34FE9E4CE89 /* YYBundle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYBundle.xcconfig; sourceTree = "<group>"; };
+		060FA31982C1BA306B74AAF6544750DC /* YYBundleAppNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleAppNotification.h; path = YYBundle/Classes/BundleInterface/YYBundleAppNotification.h; sourceTree = "<group>"; };
+		1CA4630D78041B68FF2B5D8F6FED6BFE /* YYBundleManager+AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YYBundleManager+AppDelegate.m"; path = "YYBundle/Classes/BundleManager/YYBundleManager+AppDelegate.m"; sourceTree = "<group>"; };
+		1CCF338E6131770F97F6519252A3371D /* YYBundleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYBundleManager.m; path = YYBundle/Classes/BundleManager/YYBundleManager.m; sourceTree = "<group>"; };
 		1F1558B61930D9A7EAD8BA2DAA413820 /* Pods-YYBundle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYBundle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B965CF56352CB1B8F5C372866ED35F5 /* YYBundleAppdelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYBundleAppdelegate.h; sourceTree = "<group>"; };
-		2CB9E7702FE4855A6F36F679E385117E /* YYBundleProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYBundleProxy.m; sourceTree = "<group>"; };
+		204579E0790FEBAC92842437AD8E411D /* YYMainBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMainBundle.h; path = YYBundle/Classes/BundleManager/YYMainBundle.h; sourceTree = "<group>"; };
 		32FF49221814F29B8C0446B9BCAFDFB4 /* Pods-YYBundle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYBundle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		581B1A7871CFEF2FC0AF88A7368DE9A6 /* YYBundleAppOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYBundleAppOpenURL.h; sourceTree = "<group>"; };
-		5B8C34E4B411A0819C5252A68912BF4B /* YYBundleAppNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYBundleAppNotification.h; sourceTree = "<group>"; };
-		5E175F4A0B98216E5A709BF2A8AE406C /* YYMainBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYMainBundle.h; sourceTree = "<group>"; };
+		4331302273F7082F5CADB4FB8D525744 /* YYBundle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYBundle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C56CC56B7737729B79081B6E60A6C9A /* YYBundleAppOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleAppOpenURL.h; path = YYBundle/Classes/BundleInterface/YYBundleAppOpenURL.h; sourceTree = "<group>"; };
+		4EEDAB3D1E51576A9B2B5907407732D2 /* YYBundleManager+AppNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YYBundleManager+AppNotification.m"; path = "YYBundle/Classes/BundleManager/YYBundleManager+AppNotification.m"; sourceTree = "<group>"; };
+		52DCD1336F7C807B75304AF9531194F0 /* YYBundle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYBundle-prefix.pch"; sourceTree = "<group>"; };
+		53CB7EAF1D0AEFE05AD1D413196F4358 /* YYBundle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYBundle-dummy.m"; sourceTree = "<group>"; };
+		5A597E50C59AA26B0AF3CDD853FBBF1A /* YYBundleManager+AppOpenURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YYBundleManager+AppOpenURL.m"; path = "YYBundle/Classes/BundleManager/YYBundleManager+AppOpenURL.m"; sourceTree = "<group>"; };
+		75B381F2BFB6C911902D0507EAC7E1BD /* YYBundleConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYBundleConfig.m; path = YYBundle/Classes/BundleManager/YYBundleConfig.m; sourceTree = "<group>"; };
+		883A8E973DA0ED9ED65CCE6356C79564 /* YYBundleConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleConfig.h; path = YYBundle/Classes/BundleManager/YYBundleConfig.h; sourceTree = "<group>"; };
 		8B8366A29D2636C106FB6D481A58C1FD /* Pods-YYBundle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYBundle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8CCB83FED8AA2929C825FB496402E835 /* Pods-YYBundle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYBundle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA51B4BD17E7B9EF5EFD302891681D5B /* YYMainBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYMainBundle.m; sourceTree = "<group>"; };
-		AE6427E15F63B276C9891AA5D48B9616 /* YYBundleHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleHeader.h; path = YYBundle/Classes/YYBundleHeader.h; sourceTree = "<group>"; };
+		905913E19FF0397E771CC26BB1138CF5 /* YYBundleManager+AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YYBundleManager+AppDelegate.h"; path = "YYBundle/Classes/BundleManager/YYBundleManager+AppDelegate.h"; sourceTree = "<group>"; };
+		980CE4E6C86389C95138092E23488792 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9961751ED2B33EDF51687F7E09D90A87 /* YYBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundle.h; path = YYBundle/Classes/BundleInterface/YYBundle.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A28FE53BC5FFCC3209F287B3A5C80AB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A4DD5F0B375AAE043C5AFA1D1898E4A5 /* YYBundleManager+AppNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YYBundleManager+AppNotification.h"; path = "YYBundle/Classes/BundleManager/YYBundleManager+AppNotification.h"; sourceTree = "<group>"; };
+		A8ADCFA367910A5EB955083A9E8610A3 /* YYBundleProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYBundleProxy.m; path = YYBundle/Classes/BundleManager/YYBundleProxy.m; sourceTree = "<group>"; };
+		BCB14C73D5F92050FE00FFED627DA932 /* YYBundleProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleProxy.h; path = YYBundle/Classes/BundleManager/YYBundleProxy.h; sourceTree = "<group>"; };
 		C49E3BE5F7D55DB9C632018EC5B42542 /* Pods-YYBundle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYBundle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C81C6D1803B5B2C81E37DFFC94E46EE8 /* YYBundle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYBundle-dummy.m"; sourceTree = "<group>"; };
-		D149091159E1E99ECCFCBE3B46FFD75D /* YYBundleConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYBundleConfig.h; sourceTree = "<group>"; };
+		CFE53289827F09F0A5F7FBAF8A5713F4 /* YYMainBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMainBundle.m; path = YYBundle/Classes/BundleManager/YYMainBundle.m; sourceTree = "<group>"; };
 		D53328058D2A4DFD5DFDB751EB21E265 /* Pods-YYBundle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYBundle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBE69019F52DDABDE50920EC2EC951F6 /* YYBundleConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYBundleConfig.m; sourceTree = "<group>"; };
 		DF810EDF4DEBDBDC28A54690EB87707F /* Pods-YYBundle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYBundle_Example-dummy.m"; sourceTree = "<group>"; };
-		E0AFA31BD6974550F44983E8738EA483 /* libPods-YYBundle_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYBundle_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AFA31BD6974550F44983E8738EA483 /* libPods-YYBundle_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YYBundle_Tests.a"; path = "libPods-YYBundle_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2279A0DDE1A5663141B8CDE66A6AECC /* YYBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleManager.h; path = YYBundle/Classes/BundleManager/YYBundleManager.h; sourceTree = "<group>"; };
+		E6373A57C8A91EE0A34341236FF528EB /* YYBundleManager+AppOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YYBundleManager+AppOpenURL.h"; path = "YYBundle/Classes/BundleManager/YYBundleManager+AppOpenURL.h"; sourceTree = "<group>"; };
 		E92CD1656B9B183215DB0EC8A20E191E /* Pods-YYBundle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYBundle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC1126E5726B265876E8426BE48D022F /* libYYBundle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYBundle.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED202FC111929FF81A6D5B30BFF30513 /* libPods-YYBundle_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYBundle_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBAB371F2499DD5600B3C0D6 /* YYBundleManager+AppOpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYBundleManager+AppOpenURL.m"; sourceTree = "<group>"; };
-		FBAB37202499DD5600B3C0D6 /* YYBundleManager+AppNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYBundleManager+AppNotification.h"; sourceTree = "<group>"; };
-		FBAB37212499DD5600B3C0D6 /* YYBundleManager+AppNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYBundleManager+AppNotification.m"; sourceTree = "<group>"; };
-		FBAB37222499DD5600B3C0D6 /* YYBundleManager+AppOpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYBundleManager+AppOpenURL.h"; sourceTree = "<group>"; };
-		FBAB37232499DD5600B3C0D6 /* YYBundleManager+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYBundleManager+AppDelegate.m"; sourceTree = "<group>"; };
-		FBAB37242499DD5600B3C0D6 /* YYBundleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYBundleManager.h; sourceTree = "<group>"; };
-		FBAB37252499DD5600B3C0D6 /* YYBundleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYBundleManager.m; sourceTree = "<group>"; };
-		FBAB37262499DD5700B3C0D6 /* YYBundleManager+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYBundleManager+AppDelegate.h"; sourceTree = "<group>"; };
+		E934FEDA0669F32A8A05BE3C53095A25 /* YYBundleAppdelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleAppdelegate.h; path = YYBundle/Classes/BundleInterface/YYBundleAppdelegate.h; sourceTree = "<group>"; };
+		EBFF91A00F0CE003269EE02248338AEF /* YYBundleHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYBundleHeader.h; path = YYBundle/Classes/YYBundleHeader.h; sourceTree = "<group>"; };
+		EC1126E5726B265876E8426BE48D022F /* libYYBundle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYBundle.a; path = libYYBundle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED202FC111929FF81A6D5B30BFF30513 /* libPods-YYBundle_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YYBundle_Example.a"; path = "libPods-YYBundle_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36153B0DA057E5C454C2D6A658406D7 /* YYBundle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYBundle.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DC918E8C057C8F44F6B76E24513011B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C3195109B7E28BD0A93FCA0C5AC9DE4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,51 +105,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7666E5D6496DB518FAAD23AF23BDD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15B2D7931A36916A460E9974CF43A20A /* BundleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				9961751ED2B33EDF51687F7E09D90A87 /* YYBundle.h */,
+				E934FEDA0669F32A8A05BE3C53095A25 /* YYBundleAppdelegate.h */,
+				060FA31982C1BA306B74AAF6544750DC /* YYBundleAppNotification.h */,
+				4C56CC56B7737729B79081B6E60A6C9A /* YYBundleAppOpenURL.h */,
+			);
+			name = BundleInterface;
+			sourceTree = "<group>";
+		};
+		180FC4A66F57EF102729210BC76BB12A /* BundleManager */ = {
+			isa = PBXGroup;
+			children = (
+				883A8E973DA0ED9ED65CCE6356C79564 /* YYBundleConfig.h */,
+				75B381F2BFB6C911902D0507EAC7E1BD /* YYBundleConfig.m */,
+				E2279A0DDE1A5663141B8CDE66A6AECC /* YYBundleManager.h */,
+				1CCF338E6131770F97F6519252A3371D /* YYBundleManager.m */,
+				905913E19FF0397E771CC26BB1138CF5 /* YYBundleManager+AppDelegate.h */,
+				1CA4630D78041B68FF2B5D8F6FED6BFE /* YYBundleManager+AppDelegate.m */,
+				A4DD5F0B375AAE043C5AFA1D1898E4A5 /* YYBundleManager+AppNotification.h */,
+				4EEDAB3D1E51576A9B2B5907407732D2 /* YYBundleManager+AppNotification.m */,
+				E6373A57C8A91EE0A34341236FF528EB /* YYBundleManager+AppOpenURL.h */,
+				5A597E50C59AA26B0AF3CDD853FBBF1A /* YYBundleManager+AppOpenURL.m */,
+				BCB14C73D5F92050FE00FFED627DA932 /* YYBundleProxy.h */,
+				A8ADCFA367910A5EB955083A9E8610A3 /* YYBundleProxy.m */,
+				204579E0790FEBAC92842437AD8E411D /* YYMainBundle.h */,
+				CFE53289827F09F0A5F7FBAF8A5713F4 /* YYMainBundle.m */,
+			);
+			name = BundleManager;
+			sourceTree = "<group>";
+		};
+		2833C4A072F4A94793ADC2F0A15C799E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				980CE4E6C86389C95138092E23488792 /* LICENSE */,
+				A28FE53BC5FFCC3209F287B3A5C80AB4 /* README.md */,
+				4331302273F7082F5CADB4FB8D525744 /* YYBundle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		356F25158EC2C71B04F325BFF24A9AE5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E1778C09C3A6C8459DB63590B72ADB0 /* YYBundle */,
+				D6CB3F4872629D497CD73E6376C75B20 /* YYBundle */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4293C4B4ABAC39142027F7B4C7055884 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1E5224291DCCA28D6A8DB34FE9E4CE89 /* YYBundle.xcconfig */,
-				C81C6D1803B5B2C81E37DFFC94E46EE8 /* YYBundle-dummy.m */,
-				1A0CB4B64511D884D7EAB1E3391F628D /* YYBundle-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YYBundle";
-			sourceTree = "<group>";
-		};
-		5E1778C09C3A6C8459DB63590B72ADB0 /* YYBundle */ = {
-			isa = PBXGroup;
-			children = (
-				AE6427E15F63B276C9891AA5D48B9616 /* YYBundleHeader.h */,
-				89B0EB70D228186829C246CF39B98DEB /* BundleInterface */,
-				EEDEA117322070B6F10723C19A89BD09 /* BundleManager */,
-				DC4375BD9B084D67D8248FC7D25748F5 /* Pod */,
-				4293C4B4ABAC39142027F7B4C7055884 /* Support Files */,
-			);
-			name = YYBundle;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		89B0EB70D228186829C246CF39B98DEB /* BundleInterface */ = {
-			isa = PBXGroup;
-			children = (
-				00A0DB7788340347642C8CC74870ECCF /* YYBundle.h */,
-				2B965CF56352CB1B8F5C372866ED35F5 /* YYBundleAppdelegate.h */,
-				5B8C34E4B411A0819C5252A68912BF4B /* YYBundleAppNotification.h */,
-				581B1A7871CFEF2FC0AF88A7368DE9A6 /* YYBundleAppOpenURL.h */,
-			);
-			name = BundleInterface;
-			path = YYBundle/Classes/BundleInterface;
 			sourceTree = "<group>";
 		};
 		A4D8999E491AEF720E83365128B529FC /* Pods-YYBundle_Example */ = {
@@ -180,6 +186,17 @@
 				EC1126E5726B265876E8426BE48D022F /* libYYBundle.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEF859A12D5A3A226749BC8F161A908 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36153B0DA057E5C454C2D6A658406D7 /* YYBundle.xcconfig */,
+				53CB7EAF1D0AEFE05AD1D413196F4358 /* YYBundle-dummy.m */,
+				52DCD1336F7C807B75304AF9531194F0 /* YYBundle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YYBundle";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -206,21 +223,24 @@
 			path = "Target Support Files/Pods-YYBundle_Tests";
 			sourceTree = "<group>";
 		};
+		D6CB3F4872629D497CD73E6376C75B20 /* YYBundle */ = {
+			isa = PBXGroup;
+			children = (
+				EBFF91A00F0CE003269EE02248338AEF /* YYBundleHeader.h */,
+				15B2D7931A36916A460E9974CF43A20A /* BundleInterface */,
+				180FC4A66F57EF102729210BC76BB12A /* BundleManager */,
+				2833C4A072F4A94793ADC2F0A15C799E /* Pod */,
+				BFEF859A12D5A3A226749BC8F161A908 /* Support Files */,
+			);
+			name = YYBundle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC4375BD9B084D67D8248FC7D25748F5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				017F51B4FEEB6669541D3BE8D191E3C7 /* LICENSE */,
-				0743A544251EC23E34D1932CE21CDFAA /* README.md */,
-				1487E7A9118832E6F0C18182C1E4E57F /* YYBundle.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		ED3111CA5F3D8607FFD23C128A92EBD1 /* Targets Support Files */ = {
@@ -230,28 +250,6 @@
 				D370375C3AC244F410CFDA75A8DAC439 /* Pods-YYBundle_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EEDEA117322070B6F10723C19A89BD09 /* BundleManager */ = {
-			isa = PBXGroup;
-			children = (
-				FBAB37242499DD5600B3C0D6 /* YYBundleManager.h */,
-				FBAB37252499DD5600B3C0D6 /* YYBundleManager.m */,
-				FBAB37262499DD5700B3C0D6 /* YYBundleManager+AppDelegate.h */,
-				FBAB37232499DD5600B3C0D6 /* YYBundleManager+AppDelegate.m */,
-				FBAB37202499DD5600B3C0D6 /* YYBundleManager+AppNotification.h */,
-				FBAB37212499DD5600B3C0D6 /* YYBundleManager+AppNotification.m */,
-				FBAB37222499DD5600B3C0D6 /* YYBundleManager+AppOpenURL.h */,
-				FBAB371F2499DD5600B3C0D6 /* YYBundleManager+AppOpenURL.m */,
-				D149091159E1E99ECCFCBE3B46FFD75D /* YYBundleConfig.h */,
-				DBE69019F52DDABDE50920EC2EC951F6 /* YYBundleConfig.m */,
-				095D75292D274157A4BF1AFBE1E2CE12 /* YYBundleProxy.h */,
-				2CB9E7702FE4855A6F36F679E385117E /* YYBundleProxy.m */,
-				5E175F4A0B98216E5A709BF2A8AE406C /* YYMainBundle.h */,
-				AA51B4BD17E7B9EF5EFD302891681D5B /* YYMainBundle.m */,
-			);
-			name = BundleManager;
-			path = YYBundle/Classes/BundleManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,29 +262,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6296C2799F33731E955605F46000E167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DCA31D20D5174FF61FABC802F581A1 /* YYBundle.h in Headers */,
+				4F30FDFEB5BD944B8CA521F95F4AD209 /* YYBundleAppdelegate.h in Headers */,
+				F3526B6C828BFA7D863EE220213F8BDA /* YYBundleAppNotification.h in Headers */,
+				9EC927CCE42C54858D4109D06A284204 /* YYBundleAppOpenURL.h in Headers */,
+				493DF2FD3A3EE50E22949557D689B1D3 /* YYBundleConfig.h in Headers */,
+				8A3888BC694073AFE8DB4BE272213FE2 /* YYBundleHeader.h in Headers */,
+				7101CD12C3ECB11EA5503FE829623B73 /* YYBundleManager+AppDelegate.h in Headers */,
+				4A112DE2AED1E159BA9BE5945B71182B /* YYBundleManager+AppNotification.h in Headers */,
+				F4662289DCD36534AEC8580A6C3AC285 /* YYBundleManager+AppOpenURL.h in Headers */,
+				478B66B37C64205192FB002DCAC5A436 /* YYBundleManager.h in Headers */,
+				3213C857F2AEC08379FE6CBDEFEFEE7C /* YYBundleProxy.h in Headers */,
+				4C0D69B716CDA987E1F226057F8C0D52 /* YYMainBundle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D0023133B390B313B71F42BD62BCE25 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAB372A2499DD5700B3C0D6 /* YYBundleManager+AppOpenURL.h in Headers */,
-				FBAB372E2499DD5700B3C0D6 /* YYBundleManager+AppDelegate.h in Headers */,
-				FBAB37282499DD5700B3C0D6 /* YYBundleManager+AppNotification.h in Headers */,
-				FBAB372C2499DD5700B3C0D6 /* YYBundleManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A2EA38DD338EC06EF268E39065BF0E2C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D869BE0CAD46589ADDDBA5EF4FCA71A /* YYBundle.h in Headers */,
-				0B255B43D759303028A19720A37B3651 /* YYBundleAppdelegate.h in Headers */,
-				2C424C52DA4E9A0B7A87C859B2C7E0A6 /* YYBundleAppNotification.h in Headers */,
-				64FA439BE05888B228A72C15446ACE56 /* YYBundleAppOpenURL.h in Headers */,
-				066AD487EFBACE5512BCAEA71A25A8E3 /* YYBundleConfig.h in Headers */,
-				2D05C732A0CE3F494F8B207C6DB264F5 /* YYBundleHeader.h in Headers */,
-				DFB346D656E6D65F1FEF3178CB9A7B41 /* YYBundleProxy.h in Headers */,
-				B82718E82F307DE896DDFB3429AE4FA7 /* YYMainBundle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +293,11 @@
 /* Begin PBXNativeTarget section */
 		0325124D0523769F1512626DF165CC17 /* YYBundle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D61AB365FFF0007D0093910E3EA1A959 /* Build configuration list for PBXNativeTarget "YYBundle" */;
+			buildConfigurationList = AE153B067AA2C1B762BDC3C4B99C5D0C /* Build configuration list for PBXNativeTarget "YYBundle" */;
 			buildPhases = (
-				A2EA38DD338EC06EF268E39065BF0E2C /* Headers */,
-				2C35C9593E07B3200BE09E6DC867BC64 /* Sources */,
-				4DC918E8C057C8F44F6B76E24513011B /* Frameworks */,
+				6296C2799F33731E955605F46000E167 /* Headers */,
+				52F7D9A64699401F89198169F13A939F /* Sources */,
+				F7666E5D6496DB518FAAD23AF23BDD72 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -376,26 +374,26 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C35C9593E07B3200BE09E6DC867BC64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3BB55F7785C4FD29588B6B43EF05928 /* YYBundle-dummy.m in Sources */,
-				ADEAB032B35DCBB9BF5C98F75C4C2D98 /* YYBundleConfig.m in Sources */,
-				E7EC82A72B53E19F403AC4D436E42318 /* YYBundleProxy.m in Sources */,
-				705047A7DB8D76E69B913949316E1C53 /* YYMainBundle.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2E1052FD867E6821B32A2A7CCEA9E702 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAB37292499DD5700B3C0D6 /* YYBundleManager+AppNotification.m in Sources */,
 				1AFD333466180D579390D0C61005CD0D /* Pods-YYBundle_Example-dummy.m in Sources */,
-				FBAB372B2499DD5700B3C0D6 /* YYBundleManager+AppDelegate.m in Sources */,
-				FBAB372D2499DD5700B3C0D6 /* YYBundleManager.m in Sources */,
-				FBAB37272499DD5700B3C0D6 /* YYBundleManager+AppOpenURL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F7D9A64699401F89198169F13A939F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3C55F2CAA26E057D6CA02C1FC57E5 /* YYBundle-dummy.m in Sources */,
+				9CF227AABB33133BDA3EDC4980AB6BD8 /* YYBundleConfig.m in Sources */,
+				2EAB266750326432E582201E4D702A91 /* YYBundleManager+AppDelegate.m in Sources */,
+				49F3578C230B8FA9ED35A182CD105C4B /* YYBundleManager+AppNotification.m in Sources */,
+				0B9BBDD22CD43B4506B0883082406197 /* YYBundleManager+AppOpenURL.m in Sources */,
+				AA2DCAC1BE4CEDEACEF79688B6F0950B /* YYBundleManager.m in Sources */,
+				6A76D969DEEB8821E3906364FB817CD0 /* YYBundleProxy.m in Sources */,
+				3C610893F4E9CBAB9899029F03030B71 /* YYMainBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,31 +423,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18643A6F8D372D8E87F0FD41E92FBD4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E5224291DCCA28D6A8DB34FE9E4CE89 /* YYBundle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYBundle/YYBundle-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYBundle;
-				PRODUCT_NAME = YYBundle;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -503,7 +476,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -638,9 +612,30 @@
 			};
 			name = Debug;
 		};
-		BE283F8241745330019DC5B6603BECCA /* Debug */ = {
+		DCFD7EC5C5BBDE31D027E62EE71CED44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E5224291DCCA28D6A8DB34FE9E4CE89 /* YYBundle.xcconfig */;
+			baseConfigurationReference = 32FF49221814F29B8C0446B9BCAFDFB4 /* Pods-YYBundle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6AF9B4EDC578113A63260CFF19E980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36153B0DA057E5C454C2D6A658406D7 /* YYBundle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -662,26 +657,30 @@
 			};
 			name = Debug;
 		};
-		DCFD7EC5C5BBDE31D027E62EE71CED44 /* Debug */ = {
+		F11B1D034E8B46D5689BFFED544B8210 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32FF49221814F29B8C0446B9BCAFDFB4 /* Pods-YYBundle_Tests.debug.xcconfig */;
+			baseConfigurationReference = F36153B0DA057E5C454C2D6A658406D7 /* YYBundle.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYBundle/YYBundle-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYBundle;
+				PRODUCT_NAME = YYBundle;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -704,20 +703,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AE153B067AA2C1B762BDC3C4B99C5D0C /* Build configuration list for PBXNativeTarget "YYBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6AF9B4EDC578113A63260CFF19E980 /* Debug */,
+				F11B1D034E8B46D5689BFFED544B8210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C0545F39485D1C62C26F2B3DD2A09647 /* Build configuration list for PBXNativeTarget "Pods-YYBundle_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFD7EC5C5BBDE31D027E62EE71CED44 /* Debug */,
 				4FC1D1203BF6EB9278322712B7D73437 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D61AB365FFF0007D0093910E3EA1A959 /* Build configuration list for PBXNativeTarget "YYBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE283F8241745330019DC5B6603BECCA /* Debug */,
-				18643A6F8D372D8E87F0FD41E92FBD4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

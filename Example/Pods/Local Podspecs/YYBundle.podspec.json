@@ -1,8 +1,8 @@
 {
   "name": "YYBundle",
-  "version": "0.1.0",
-  "summary": "A short description of YYBundle.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "YYBundle. used for launch App",
+  "description": "1.为Appdelegates瘦身\n2.启动组件化",
   "homepage": "https://github.com/baozhoua/YYBundle",
   "license": {
     "type": "MIT",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/baozhoua/YYBundle.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YYBundle/Classes/**/*",
+  "source_files": "YYBundle/Classes/YYBundleHeader.h",
   "public_header_files": "YYBundle/YYBundleHeader.h",
   "subspecs": [
     {
@@ -27,7 +27,12 @@
     },
     {
       "name": "BundleManager",
-      "source_files": "YYBundle/Classes/BundleManager/*.{h,m}"
+      "source_files": "YYBundle/Classes/BundleManager/*.{h,m}",
+      "dependencies": {
+        "YYBundle/BundleInterface": [
+
+        ]
+      }
     }
   ]
 }
